@@ -13,7 +13,7 @@ categories = ["web-programming"]
 
 [dependencies]
 icondata = "0.0.7"
-leptos = "0.5.0-alpha"
+leptos = { git = "https://github.com/leptos-rs/leptos", branch = "effect-cleanups" }
 tracing = "0.1"
 
 [features]
